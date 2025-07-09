@@ -19,11 +19,11 @@ class WatermarkNode:
                            "bottom_left", "bottom_center", "bottom_right"], 
                            {"default": "bottom_right"}),
                 "opacity": ("FLOAT", {"default": 0.8, "min": 0.0, "max": 1.0, "step": 0.01}),
-                "scale": ("FLOAT", {"default": 0.1, "min": 0.01, "max": 1.0, "step": 0.01}),
-                "margin_x": ("INT", {"default": 20, "min": 0, "max": 500, "step": 1}),
-                "margin_y": ("INT", {"default": 20, "min": 0, "max": 500, "step": 1}),
-                "offset_x": ("INT", {"default": 0, "min": -500, "max": 500, "step": 1}),
-                "offset_y": ("INT", {"default": 0, "min": -500, "max": 500, "step": 1}),
+                "scale": ("FLOAT", {"default": 0.1, "min": 0.01, "max": 5.0, "step": 0.10}),
+                "margin_x": ("INT", {"default": 20, "min": 0, "max": 5000, "step": 1}),
+                "margin_y": ("INT", {"default": 20, "min": 0, "max": 5000, "step": 1}),
+                "offset_x": ("INT", {"default": 0, "min": -5000, "max": 5000, "step": 1}),
+                "offset_y": ("INT", {"default": 0, "min": -5000, "max": 5000, "step": 1}),
             }
         }
     
